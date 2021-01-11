@@ -1,5 +1,3 @@
-import './recommend.styles.scss';
-
 const Recommend = () => (
     <div className="recommend">
         <p className="recommend__count">Lucy and 3 other friends recommend this hotel.</p>

@@ -6,6 +6,11 @@
   position: relative;
   overflow: hidden;
 
+  @media only screen and (max-width: $bp-medium) {
+    margin-bottom: 3rem;
+    padding: 2rem;
+  }
+
   &::before {
     content: "\201C";
     font-family: sans-serif;

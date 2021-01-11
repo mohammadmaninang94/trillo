@@ -1,2 +1,9 @@
 @import "base";
-@import "layout";
+@import "layout";@import "layout";
+
+@import "../components/header/header.styles.scss";
+@import "../components/sidebar/sidebar.styles.scss";
+@import "../components/review-box/review-box.styles.scss";
+@import "../components/recommend/recommend.styles.scss";
+@import "../components/overview/overview.styles.scss";
+@import "../components/feature-list/feature-list.styles.scss";

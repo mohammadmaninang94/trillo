@@ -4,10 +4,18 @@
   background-color: var(--color-grey-light-1);
   box-shadow: var(--shadow-dark);
   min-height: 50rem;
+
+  @media only screen and (max-width: $bp-largest) {
+    margin: 0;
+  }
 }
 
 .content {
   display: flex;
+
+  @media only screen and (max-width: $bp-large) {
+    flex-direction: column;
+  }
 }
 
 .hotel-view {
@@ -77,6 +85,14 @@
   background-color: var(--color-grey-light-1);
   padding: 4.5rem;
   font-size: 1.4rem;
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 3rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    flex-direction: column;
+  }
 }
 
 .description {
@@ -85,6 +101,11 @@
   background-color: var(--color-white);
   box-shadow: var(--shadow-light);
   flex: 0 0 60%;
+
+  @media only screen and (max-width: $bp-small) {
+    margin: 0;
+    margin-bottom: 3rem;
+  }
 }
 
 .user-reviews {
@@ -95,6 +116,10 @@
 .cta {
   padding: 3.5rem 0;
   text-align: center;
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 2.5rem 0;
+  }
 
   &__book-now {
     font-size: 2rem;

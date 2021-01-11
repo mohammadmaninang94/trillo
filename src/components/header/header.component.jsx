@@ -1,5 +1,3 @@
-import './header.styles.scss';
-
 const Header = () => (
     <header className='header'>
         <img src="img/logo.png" alt="trillo logo" className="logo" />

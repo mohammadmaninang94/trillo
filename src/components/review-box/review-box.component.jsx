@@ -1,5 +1,3 @@
-import './review-box.styles.scss';
-
 const ReviewBox = ({name, quote, date, rating, imageUrl, imageAlt}) => (
     <figure className='review-box'>
         <blockquote className='review-box__quote'>{quote}</blockquote>

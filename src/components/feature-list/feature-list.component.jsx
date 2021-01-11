@@ -1,5 +1,3 @@
-import './feature-list.styles.scss';
-
 const FeatureList = () => (
     <ul className="feature">
         <li className="feature__item">Close to the beach</li>

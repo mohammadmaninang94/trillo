@@ -1,6 +1,3 @@
-
-import './overview.styles.scss';
-
 const Overview = () => (
     <div className='overview'>
         <h1 className='overview__title'>Hotel Las Palmas</h1>

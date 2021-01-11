@@ -1,6 +1,4 @@
 
-import './sidebar.styles.scss';
-
 const Sidebar = () => (
     <nav className='sidebar'>
         <ul className="side-nav">

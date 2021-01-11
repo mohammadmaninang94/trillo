@@ -1,19 +1,23 @@
 .recommend {
-    display: flex;
-    align-items: center;
-  
-    &__count {
-      font-size: 1.3rem;
-      margin-right: auto;
-      color: var(--color-grey-dark-3);
-    }
-  
-    &__photo {
-      box-sizing: content-box;
-      width: 4rem;
-      height: 4rem;
-      border-radius: 50%;
-      margin-left: -2rem;
-      border: 3px solid var(--color-white);
-    }
+  display: flex;
+  align-items: center;
+
+  &__count {
+    font-size: 1.3rem;
+    margin-right: auto;
+    color: var(--color-grey-dark-3);
   }
+
+  &__friends {
+    display: flex;
+  }
+
+  &__photo {
+    box-sizing: content-box;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-left: -2rem;
+    border: 3px solid var(--color-white);
+  }
+}
